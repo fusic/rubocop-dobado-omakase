@@ -1,3 +1,36 @@
 require:
   - rubocop-performance
   - rubocop-rails
+
+inherit_mode:
+  merge:
+    - Exclude
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountAsOne:
+    - hash
+    - array
