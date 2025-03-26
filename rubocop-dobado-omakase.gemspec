@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Omakase Ruby styling for Rails. Especially for Dobado."
   spec.license = "MIT"
 
-  spec.version = "0.1.0"
+  spec.version = "1.0.0"
   spec.platform = Gem::Platform::RUBY
 
   spec.add_dependency "rubocop"
