@@ -34,3 +34,8 @@ Metrics/MethodLength:
   CountAsOne:
     - hash
     - array
+
+Metrics/ClassLength:
+  CountAsOne:
+    - array
+    - hash
